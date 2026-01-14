@@ -230,10 +230,14 @@ main>section{
 }
 .sponsor-companies{
   display: grid;
-  grid-template-columns: repeat5,1fr);
+  grid-template-columns:( repeat5,1fr);
 
   
 }
 sponsor-companies img{
   filter:grayscale(100%);
+}
+.footer{
+  background-color:oldlace;
+  text-align: center;
 }
