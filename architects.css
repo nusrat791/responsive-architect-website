@@ -51,6 +51,15 @@ font-size: 1.25rem;
 font-weight: semi-bold;
 border-radius: 8px;
 }
+
+main{
+
+  max-width: 1440px;
+  margin:0 auto;
+}
+main>section{
+  margin-top: 130px;
+}
 .brand
 {
   font-weight: 700;
@@ -89,6 +98,32 @@ border-radius: 8px;
 .banner-image
 {
   width:100%;
+}
+/*team and features elated styles*/
+
+.teams
+{
+  align-items:center;
+}
+
+.team-image-container
+{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:none;
+}
+.our-features
+{
+  margin-left: 130px;
+  max-width: 530px;
+}
+
+.feature-title{
+  font-size: 2.8rem;
+}
+#quick-list{
+  font-weight: 500px;
+  font-weight: 700;
 }
 /*responsive media query*/ 
 @media screen and (max-width:576px){
