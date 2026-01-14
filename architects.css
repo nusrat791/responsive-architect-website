@@ -126,11 +126,37 @@ main>section{
 
 
 .feature-title{
-  font-size: 2.8rem;
+  font-size: 1.25rem;
 }
 #quick-list{
   font-weight: 500px;
   font-weight: 700;
+}
+
+
+/*feature section*/
+
+#feature-section-title
+{
+  border-left: 5px solid orange;
+  padding-left:20px ;
+}
+
+.feature-card{
+  padding: 30px;
+  box-shadow: 0 4px 10px 0 #FF900E;
+  border-radius: 8px;
+  height: 100px;;
+
+}
+
+.feature-card .feature-title{
+  font-weight: 450;
+  font: size 1.25rem; 
+  
+}
+.feature-display-card{
+
 }
 /*some facts related styles*/
 .facts-container{
